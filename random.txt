@@ -1,1 +1,2 @@
-spotify-this-song,"I Want it That Way"
+function spotifyFunction(){
+		spotify.search({ type: "Backstreet Boys", query: "I want it that way" }, function(err, data)}
